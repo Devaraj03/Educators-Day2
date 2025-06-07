@@ -12,33 +12,22 @@
     <h2>Registration Form</h2>
     <hr>
     <form>
-        <div class="content">
-        <label for="name" style="padding-right: 90px;">Name :</label>
+       <label for="name"><b>Name :</b></label>
         <input id="name" type="text" placeholder="Enter your name" required>
-        </div>
-        <br/>
-        <div class="content">
-        <label for="password" style="padding-right: 67px;">Password :</label>
+        <br/><br/>
+        <label for="password" ><b>Password :</b></label>
         <input id="password" type="password" placeholder="Enter your password" required>
-        </div>
-        <br/>
-        <div>
-            <label for="email" style="padding-right: 90px;">Email :</label>
+        <br/><br/>
+            <label for="email"><b>Email :</b></label>
             <input id="email" type="email" placeholder="Enter your email" required>
-        </div>
-        <br/>
-        <div>
-            <label for="mnumber" style="padding-right: 26px;">Mobile Number :</label>
+        <br/><br/>
+            <label for="mnumber" ><b>Mobile Number :</b></label>
             <input id="mnumber" type="number" placeholder="Enter your mobile number" required>
-        </div>
-        <br/>
-        <div style="padding-right: 62px;">
-            <label for="date" style="padding-right: 47px;">Date of birth :</label>
+        <br/><br/>
+            <label for="date" ><b>Date of birth :</b></label>
             <input id="date" type="date" required>
-        </div>
-        <br/>
-        <div style="padding-right: 85px;padding-left: 0px;">
-            <label for="place" style="padding-right: 93px;">Place :</label>
+        <br/><br/>
+            <label for="place" ><b>Place :</b></label>
             <select id="place" onchange="otherplacefunc()" style="text-align: left;" required>
                 <option>---------</option>
                 <option>Ariyaloor</option>
@@ -49,25 +38,20 @@
                 <option>Salem</option>
                 <option value="others">Others</option>
             </select>
-            <br/>
-            <br/>
-            <div   id=otherplace style="display: none;padding-left: 77px;">
-                <label for ="other" style="padding-right: 49px ;">Other place :</label>
-                <input  id=other type="text">
+            <br/><br/>
+            <div   id=otherplace style="display: none;">
+            <label for ="other"><b>Other place :</b></label>
+            <input  id=other type="text">
             </div>
-        </div>
-        
-        <div style="padding-right: 59px;padding-left: 6px;">
-            <label style="padding-right: 76px;">Gender :</label>
+
+            <label><b>Gender :</b></label>
             <input id="male" type="radio" name="gender">
             <label for="male">Male</label>
             <input id="female" type="radio" name="gender">
             <label for="female">Female</label>
-        </div>
-        <br/>
-        <div style="padding-left: 94px;">
-        <div class="checkboxes">
-            <label style="padding-right: 85px;">Skills :</label>
+        <br/><br/>
+
+            <label><b>Skills :</b></label>
             <input id="checkbox-1" type="checkbox">
             <label for="checkbox-1">Python</label>
             <input id="checkbox-2" type="checkbox">
@@ -77,20 +61,13 @@
             <input id="checkbox-4" type="checkbox">
             <label for="checkbox-4">Node JS</label>
             <br/>
-            <div style="padding-right: 36px;">
             <input id="checkbox-5" type="checkbox" style="padding-left: 110px;">
             <label for="checkbox-5" >Git & Github</label>
-            </div> 
-        </div>
-        </div>
-        <br/>
-        <div style="padding-right: 186px;padding-left: 2px;">
-        <label for="textarea" style="padding-right: 38px;padding-top: 3300px;">About yourself :</label>
-        <textarea type="text" cols=25 rows="8" style="position: fixed; resize:none;"> </textarea>
-        </div> 
-        <div style="padding-top: 125px">
-            <button id="submit" type="submit">Submit</button>
-        </div> 
+        <br/><br/>
+        <label for="textarea"><b>About yourself :</b></label><br/><br/>
+        <textarea type="text" cols=25 rows="8" style="resize:none;"> </textarea>
+        <br/> <br/>   
+        <button id="submit" type="submit">Submit</button>
         </form>
 </div>
 </body>
